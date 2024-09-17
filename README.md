@@ -13,7 +13,7 @@ Proje şu üç ana dosyadan oluşmaktadır:
 - Butona tıklandığında veya klavyeden ilgili tuşa basıldığında ses oynatılır.
 - Butonlar, tıklama veya tuş basma olayında küçülüp büyüme animasyonuyla görsel efekt sağlar.
 
-![drum-kit](/drumkit/drumkit-docs/app-img.PNG)
+![drum-kit](drumkit-docs/app-img.PNG)
 
 ## Kullanım
 
