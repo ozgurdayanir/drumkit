@@ -80,7 +80,7 @@ h1 {
     color: var(--background-color);
 }
 
-.drum-btn {
+.sound-button {
     font-size: 24px;
     background-color: var(--primary-color);
     color: var(--background-color);
@@ -88,10 +88,20 @@ h1 {
     padding: 24px 24px;
     border-radius: 16px;
     box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.1s ease; /* Transform değişimi animasyonu */
 }
 
-.drum-btn:hover {
+.sound-button:hover {
     background-color: #0f0f0f;
+}
+
+.sound-button:active {
+    transform: scale(0.9); /* Butona tıklayınca %90 boyutuna küçülecek */
+}
+
+.sound-button.pressed {
+    transform: scale(0.9); /* Klavye tuşuna basınca %90 boyutuna küçülecek */
 }
 
 

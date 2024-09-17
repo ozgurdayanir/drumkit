@@ -7,7 +7,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/drumkit/css/style.css">
     <title>DrumKit</title>
 </head>
 
@@ -15,49 +15,68 @@
     <main>
         <div class="container">
             <h1>Let's Play</h1>
-            <img src="/drumkit-docs/drum.png" alt="drum">
+            <img src="./drumkit-docs/drum.png" alt="drum">
             <div class="btn-set">
                 <div class="btn-container">
-                    <button class="drum-btn" id="clap"><span>Clap</span></button>
+                    <button class="sound-button" data-key="A">Clap</button>
+                    <audio id="soundA" src="drumkit-docs/clap.wav"></audio>
                     <span class="key">A</span>
                 </div>
+
                 <div class="btn-container">
-                    <button class="drum-btn" id="clap"><span>Clap</span></button>
+                    <button class="sound-button" data-key="S">Boom</button>
+                    <audio id="soundS" src="drumkit-docs/boom.wav"></audio>
                     <span class="key">S</span>
                 </div>
+
                 <div class="btn-container">
-                    <button class="drum-btn" id="clap"><span>Clap</span></button>
+                    <button class="sound-button" data-key="D">Hihat</button>
+                    <audio id="soundD" src="drumkit-docs/hihat.wav"></audio>
                     <span class="key">D</span>
                 </div>
+
                 <div class="btn-container">
-                    <button class="drum-btn" id="clap"><span>Clap</span></button>
+                    <button class="sound-button" data-key="F">Kick</button>
+                    <audio id="soundF" src="drumkit-docs/kick.wav"></audio>
                     <span class="key">F</span>
                 </div>
+
                 <div class="btn-container">
-                    <button class="drum-btn" id="clap"><span>Clap</span></button>
+                    <button class="sound-button" data-key="J">Openhat</button>
+                    <audio id="soundJ" src="drumkit-docs/openhat.wav"></audio>
                     <span class="key">J</span>
                 </div>
+
                 <div class="btn-container">
-                    <button class="drum-btn" id="clap"><span>Clap</span></button>
+                    <button class="sound-button" data-key="K">Ride</button>
+                    <audio id="soundK" src="drumkit-docs/ride.wav"></audio>
                     <span class="key">K</span>
                 </div>
+
                 <div class="btn-container">
-                    <button class="drum-btn" id="clap"><span>Clap</span></button>
+                    <button class="sound-button" data-key="L">Snare</button>
+                    <audio id="soundL" src="drumkit-docs/snare.wav"></audio>
                     <span class="key">L</span>
                 </div>
+
                 <div class="btn-container">
-                    <button class="drum-btn" id="clap"><span>Clap</span></button>
+                    <button class="sound-button" data-key="U">Tink</button>
+                    <audio id="soundU" src="drumkit-docs/tink.wav"></audio>
                     <span class="key">U</span>
                 </div>
+
                 <div class="btn-container">
-                    <button class="drum-btn" id="clap"><span>Clap</span></button>
-                    <span class="key">E</span>
+                    <button class="sound-button" data-key="T">Tom</button>
+                    <audio id="soundT" src="drumkit-docs/tom.wav"></audio>
+                    <span class="key">T</span>
                 </div>
             </div>
         </div>
     </main>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+
+    </script>
 
 </body>
 
